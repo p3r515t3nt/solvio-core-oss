@@ -1,0 +1,65 @@
+name: tests
+
+# The public repository's own gate: install from the lockfile and run the canonical
+# test runner. It does not depend on the private exporter. Suites whose preconditions
+# are absent on a Linux runner (macOS sandbox, keychain, peer credentials, the Codex and
+# Claude CLIs, a FileVault-proven boot volume for the offsite staging gate) skip with the
+# reason named; nothing is reported green that did not run.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  canonical-gate:
+    runs-on: ubuntu-latest
+    # The memory suites embed a corpus with a local model on a two-core runner.
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install uv
+        run: python -m pip install --disable-pip-version-check uv
+
+      - name: Install tools the suites measure against
+        run: |
+          # age/age-keygen: the offsite backup encrypts with age; lsof: open-file census.
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq age lsof
+          # Chrome's own sandbox needs unprivileged user namespaces, which Ubuntu 24.04
+          # restricts by default; SOLVIO deliberately never passes --no-sandbox.
+          sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+
+      - name: Install
+        run: uv sync --frozen --all-extras
+
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-qwen3-embedding-0.6b-v1
+
+      - name: Canonical test gate
+        env:
+          # Per-suite budget: the two memory-policy suites embed a corpus on CPU here.
+          SOLVIO_SUITE_TIMEOUT: '2400'
+          # Headless Chrome cold-starts slowly on a two-core runner.
+          SOLVIO_BROWSER_START_TIMEOUT: '90'
+        run: |
+          # A configured checkout has a .env; the backup inventory treats it as required.
+          # The example carries placeholders only.
+          cp .env.example .env
+          uv run python scripts/run_tests.py

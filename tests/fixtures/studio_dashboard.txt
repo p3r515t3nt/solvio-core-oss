@@ -1,0 +1,148 @@
+# Die echte angemeldete Studio-Seite, so wie der Arbeiter sie am 22.08.2026
+# gelesen hat. Woertlich uebernommen und ausdruecklich NICHT geglaettet:
+# ein Auszug, der gegen eine aufgeraeumte Wunschseite geprueft wird, prueft
+# nichts. Der Redactor des Arbeiters lief vorher; Geheimnisse stehen hier
+# keine, das ist sichtbarer Seitentext.
+#
+# Zeilen mit '#' am Anfang gehoeren zu diesem Kopf, nicht zur Seite.
+Solvio Studio
+WORKFLOW
+Wochenplaner
+Advisor
+Brand Center
+Auswertung
+KONTO
+Performance-Sets
+Abo & Billing
+API
+Team
+Einstellungen
+Hilfe
+Admin
+MM
+Max Mustermann
+Solvio Studio
+1000123
+Performance-Sets
+Hell
+Abmelden
+Wochenplaner
+Vom Wochenthema zu plattformgerechten Texten und Designs, im Stil deiner Marke.
+Nächster Schritt: Designs zum Wochenplan erstellen.
+1
+Wochenthema
+Worum geht es diese Woche?
+5 Wochenthemen generieren
+0/200
+DEINE WOCHENTHEMEN — WÄHLE EINS ALS THEMA
+Sommerhitze und Technik: Wie bleibt eure Hardware cool?
+Kreativität oder Chaos? Warum klare Prozesse kreativer machen
+Verwendete Themen (10)
+2
+Plattformen
+Wo soll diese Woche veröffentlicht werden?
+0 ausgewählt
+Instagram
+Facebook
+LinkedIn
+X / Twitter
+
+Dein Plan erlaubt bis zu 99 Plattformen gleichzeitig — mehr Plattformen bedeuten mehr Output pro Performance-Set, bei gleichem Verbrauch.
+
+3
+Frequenz
+Wie viele Posts pro Plattform soll der Wochenplan enthalten?
+1× pro Woche
+2× pro Woche
+3× pro Woche
+Täglich (7×)
+4
+Anzeigen-Typ
+In welchem Bildstil sollen die Visuals erstellt werden?
+Grafik / Flat Design
+Illustration
+Minimalistisch
+Echte Fotos
+3D Render
+Collage / Mixed Media
+
+Bestimmt den Bildstil der Visuals. Deine Auswahl aktualisiert auch den Anzeigen-Typ im Brand Center.
+
+Verwendet 0 Performance-Sets · bis zu 0 Posts (Designs inklusive)
+Wochenplan generieren
+
+Texte und Visuals sind im Performance-Set enthalten.
+
+AKTUELLER WOCHENPLAN
+Kreativität oder Chaos? Warum klare Prozesse kreativer machen
+Entwurf
+3 Posts
+19.08.2026, 21:49
+Frühere Wochenpläne(14)
+Klicken, um die Liste zu öffnen.
+Content-Vorschläge
+Texte & Designs für „Kreativität oder Chaos? Warum klare Prozesse kreativer machen".
+Jetzt Designs zu deinen Texten generieren
+Erstellt zu jedem Post ein markenkonformes Bild · im Performance-Set enthalten.
+Designs generieren
+Das komplette Wochenpaket, Texte und Designs, als ZIP-Datei.
+Wochenpaket als ZIP herunterladen
+LinkedIn
+831 Zeichen
+
+Wenn Ihr Team vor Ideen sprüht, aber nichts umgesetzt wird, liegt oft Chaos im Weg. Kreativität braucht klare Prozesse. Warum das paradox klingt? Weil ungeplante Kreativität schnell verpufft wie Konfetti im Wind. 🎉
+
+In einem kleinen Startup, das wir betreuen, war das wöchentliche Brainstorming der kreative Höhepunkt. Doch am Ende blieben die besten Ideen oft in endlosen Email-Schleifen hängen. Was wir dort geändert haben? Ein simpler Ablauf: Jede Idee bekommt einen Paten, ein festes Zeitfenster und ein klares Ziel. Plötzlich wurden aus Gedanken greifbare Projekte.
+
+Kreativität ist wie ein Fluss und Prozesse sind die Ufer, die ihn lenken. Ohne klaren Rahmen wird der Fluss schnell zum unkontrollierbaren Strom.
+
+Wie organisiert ihr eure kreativen Prozesse, um aus Chaos Wert zu schaffen?
+
+#KreativitätImProzess
+#StartupTipps
+CTA: Wie organisiert ihr eure kreativen Prozesse, um aus Chaos Wert zu schaffen?
+Bild-Idee: Tipp-Karte 'Kreativität: Fluss mit Ufer'
+Entwurf
+Freigeben
+Herunterladen
+solvio-studio-ai
+Als Entwurf freigeben
+Instagram
+296 Zeichen
+
+Marketingverantwortliche in Startups haben selten ein Ideenproblem.
+Sie haben ein Freigabe-Problem.
+
+Idee im Chat. Meeting. „Später“.
+
+Ein guter Prozess macht Kreativität nicht steif.
+Er macht sie postbar.
+
+Solvio Studio macht daraus Post, Design und Format-Variante.
+
+Welche Idee liegt unfertig?
+
+CTA: Welche Idee liegt bei euch gerade seit Tagen unfertig?
+Bild-Idee: Typografische Textkarte auf #0f1b2d mit Akzenten in #1f7ddb und #d6a545: „Ideen da. Posts fehlen.“
+Entwurf
+Freigeben
+Herunterladen
+solvio.studio
+Als Entwurf freigeben
+Facebook
+233 Zeichen
+
+Euer kleines Marketingteam hat tolle Ideen, aber fühlt sich manchmal im Chaos verloren? Klare Prozesse sind das Geheime an kreativer Freiheit im Alltag! Sind eure Strukturen bereit für den nächsten Kreativschub?
+
+#Kreativität
+#Prozess
+CTA: Wie sorgt ihr in eurem Team für kreative Freiheit?
+Bild-Idee: Wunsch-vs-Problem-Karte: "Kreativität oder Chaos?"
+Entwurf
+Freigeben
+Herunterladen
+Solvio Studio
+Als Entwurf freigeben
+Wir verwenden technisch notwendige Cookies (Login-Session) und – nur mit Ihrer Einwilligung – Marketing-Cookies von Meta (Facebook/Instagram) und Google Ads, um die Wirksamkeit unserer Werbung zu messen. Die anonyme, cookielose Reichweitenmessung mit Plausible läuft einwilligungsfrei. Mehr in der Datenschutzerklärung. Ihre Wahl können Sie jederzeit über „Cookie-Einstellungen" im Footer ändern.
+Nur notwendige
+Alle akzeptieren
